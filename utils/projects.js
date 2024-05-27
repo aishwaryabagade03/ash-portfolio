@@ -4,18 +4,27 @@ export const projects = [
     title: "Dialable",
     type: "Client Project",
     img: "/assets/portfolio/img1.png",
+    url: "ghar-ho-to-aisa",
+    projectUrl:
+      "https://www.figma.com/design/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?node-id=0-1&t=0xAkDSM1FYyn5P7U-0",
   },
   {
     id: 2,
     title: "Ghar Ho To Aisa",
     type: "Client Project",
     img: "/assets/portfolio/img2.jpg",
+    url: "ghar-ho-to-aisa",
+    projectUrl:
+      "https://www.figma.com/design/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?node-id=0-1&t=0xAkDSM1FYyn5P7U-0",
   },
   {
     id: 3,
     title: "Muse Gallery",
     type: "Personal Project",
     img: "/assets/portfolio/img3.jpg",
+    url: "muse-gallery",
+    projectUrl:
+      "https://www.figma.com/design/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?node-id=0-1&t=0xAkDSM1FYyn5P7U-0",
   },
 ];
 

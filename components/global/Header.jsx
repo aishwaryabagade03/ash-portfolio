@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <header>
       <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-        <ul class="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+        <ul class="navigation max-w-screen-xl flex flex-wrap justify-between items-center relative mx-auto pt-8 pb-4">
           <Link class="logo" href="/">
-            <h3 class="">
+            <h5 class="">
               <span className="font-bold">Aishwarya</span> Bagade
-            </h3>
+            </h5>
           </Link>
           <input type="checkbox" id="check" />
 
@@ -30,7 +30,7 @@ const Header = () => {
           </span>
 
           <label for="check" class="open-menu">
-            Menu
+          <svg width="50px" height="50px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><line x1="16" y1="32" x2="48" y2="32"></line><line x1="16" y1="20" x2="48" y2="20"></line><line x1="16" y1="44" x2="48" y2="44"></line></g></svg>
           </label>
         </ul>
       </nav>

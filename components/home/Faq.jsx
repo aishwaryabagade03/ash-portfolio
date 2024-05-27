@@ -31,13 +31,13 @@ function FAQAccordion() {
       };
 
   return (
-    <div className="py-16 max-w-screen-xl mx-auto">
+    <div className="md:py-24 max-w-screen-xl mx-auto">
       <div className="divide-y divide-slate-200">
         <div className="py-2">
           <h2>
             <button
               type="button"
-              className="flex items-center justify-between w-full text-left font-medium py-2 border-b-2 border-black"
+              className="flex items-center justify-between w-full text-left font-medium py-2 px-6 border-b-2 border-black"
               onClick={toggleAccordion1}
               aria-expanded={expanded1}
               aria-controls="faqs-text-01"
@@ -103,7 +103,7 @@ function FAQAccordion() {
             }`}
           >
             <div className="overflow-hidden">
-              <p className="py-8 text-2xl">
+              <p className="py-8 px-6 text-xl poppins">
                 I utilize wireframing and prototyping to bring ideas to life.
                 Wireframes serve as blueprints, outlining the structure and
                 layout of each design element. With prototyping, I create
@@ -122,7 +122,7 @@ function FAQAccordion() {
           <h2>
             <button
               type="button"
-              className="flex items-center justify-between w-full text-left font-medium py-2 border-b-2 border-black"
+              className="flex items-center justify-between w-full text-left font-medium py-2 px-6 border-b-2 border-black"
               onClick={toggleAccordion2}
               aria-expanded={expanded2}
               aria-controls="faqs-text-01"
@@ -188,7 +188,7 @@ function FAQAccordion() {
             }`}
           >
             <div className="overflow-hidden">
-              <p className="py-8 text-2xl">
+              <p className="py-8 px-6 text-2xl">
                 Craft visually stunning and intuitive user interfaces that
                 captivate and delight users. From wireframes to pixel-perfect
                 designs, I specialize in creating seamless experiences for
@@ -207,8 +207,8 @@ function FAQAccordion() {
           <h2>
             <button
               type="button"
-              className="flex items-center justify-between w-full text-left font-medium py-2 border-b-2 border-black"
-              onClick={toggleAccordion3}
+              className="flex items-center justify-between w-full text-left font-medium py-2 px-6 border-b-2 border-black"
+              onClick={toggleAccordion3} 
               aria-expanded={expanded3}
               aria-controls="faqs-text-01"
             >
@@ -273,7 +273,7 @@ function FAQAccordion() {
             }`}
           >
             <div className="overflow-hidden">
-              <p className="py-8 text-2xl">
+              <p className="py-8 px-6 text-2xl">
                 Offering responsive design to ensure your digital products adapt
                 seamlessly to all devices and screen sizes. From mobile phones
                 to tablets and desktops, I create user-friendly experiences that
