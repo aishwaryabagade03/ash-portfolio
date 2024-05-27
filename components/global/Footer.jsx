@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="pt-16 pb-6 bg-black">
+    <footer className="pt-16 pb-6 bg-black cursor-[url('/assets/white-cursor.svg',auto)">
       <div className="max-w-screen-xl mx-auto text-white">
         <div className="grid md:grid-cols-2 grid-cols-1 justify-between w-full">
           <div>

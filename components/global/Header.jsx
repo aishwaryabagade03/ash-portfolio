@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-        <ul class="navigation max-w-screen-xl flex flex-wrap justify-between items-center relative mx-auto pt-8 pb-4">
+        <ul class="navigation max-w-screen-xl flex flex-wrap justify-between items-center relative mx-auto pt-8 pb-4 cursor-pointer">
           <Link class="logo" href="/">
             <h5 class="">
               <span className="font-bold">Aishwarya</span> Bagade

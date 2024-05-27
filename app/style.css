@@ -70,7 +70,10 @@ h6 {
   cursor: url('/assets/view-cursor2.png') , auto !important;
 }
 
+footer{
+  cursor: url('/assets/white-cursor.svg') , auto !important;
 
+}
 .close-menu {
   top: 20px;
   right: 20px;
