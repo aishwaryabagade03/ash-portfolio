@@ -10,7 +10,7 @@ const AboutText = () => {
           product, I've embraced every challenge with enthusiasm and dedication.
       </h2>
       <div className="counter-div mt-8">
-        <span className="text-7xl md:text-[14rem] poppins leading-none font-medium">+3</span>
+        <span className="text-7xl md:text-[14rem] poppins leading-none font-normal">+3</span>
         <p className="text-gray-400	 poppins text-xl mt-2">Total Projects</p>
       </div>
     </section>
