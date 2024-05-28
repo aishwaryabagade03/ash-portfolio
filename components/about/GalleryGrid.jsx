@@ -3,9 +3,9 @@ import React from 'react'
 
 const GalleryGrid = () => {
   return (
-    <section className='py-16'>
+    <section className='pt-36 md:pt-0 md:py-36'>
         <div className="max-w-screen-xl mx-auto">
-            <h1>When I am not designing</h1>
+            <h1 className='text-3xl md:text-6xl'>When I am not designing</h1>
             <div className="md:grid-cols-3 grid grid-cols-1 py-12">
                 <div className='h-full'>
                     <div className="grid-cols-1">

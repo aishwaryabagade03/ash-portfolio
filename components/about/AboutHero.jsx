@@ -3,12 +3,12 @@ import React from "react";
 
 const AboutHero = () => {
   return (
-    <section className="pt-40 pb-16">
+    <section className="pt-40 pb-16"> 
       <div className="max-w-screen-xl mx-auto">
-        <div className="grid md:grid-cols-2 grid-cols-1 w-full py-32">
+        <div className="grid md:grid-cols-2 grid-cols-1 w-full md:py-32 md:justify-between">
           <div className="w-full">
-            <h1>Hello again !</h1>
-            <span className="text-2xl">
+            <h1 className="text-4xl md:text-6xl poppins mb-10">Hello again !</h1>
+            <span className="text-xl poppins">
               I'm Aishwarya, my fascination with art and its potential to
               influence lives has been a lifelong passion. I began sketching and
               painting at the age of ten, and this love for artistic expression
@@ -24,9 +24,9 @@ const AboutHero = () => {
             </span><br />
             <button className="bg-black text-white px-12 py-3 rounded-lg text-xl mt-8">Resume</button>
           </div>
-          <div className="w-4/5 text-right ml-auto">
+          <div className="w-4/5 text-right mx-auto md:ml-auto">
 
-          <div className="grid grid-cols-2 gap-4 relative">
+          <div className="grid grid-cols-2 gap-4 relative mt-16 mb-20">
             <div className="grid-item-1 relative">
               <Image
                 src="/assets/ash/grid1.jpg"

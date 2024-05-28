@@ -2,22 +2,22 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-16">
+    <section className="pt-24 pb-32">
       <div className="max-w-screen-xl mx-auto">
-        <h1>CONTACT</h1>
+        <h1 className="text-3xl md:text-6xl mb-10">CONTACT</h1>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-2 items-start">
           <div className="email-box">
             <h5 className="poppins font-normal">
-              <a href="mailto:aishwaryaabagade3@gmail.com">
+              <a href="mailto:aishwaryaabagade3@gmail.com" className="text-xl md:text-[26px]">
                 aishwaryaabagade3@gmail.com
               </a>
             </h5>
             <h5 className="poppins font-normal">
-              <a href="tel:(+91) 8779612395">(+91) 8779612395</a>
+              <a href="tel:(+91) 8779612395" className="text-xl md:text-[26px]">(+91) 8779612395</a>
             </h5>
-            <h5 className="poppins font-normal my-1">India Based.</h5>
+            <h5 className="poppins font-normal my-1 text-xl md:text-[26px]">India Based.</h5>
           </div>
-          <div className="form-box">
+          <div className="form-box mt-12 md:mt-0">
             <div class="">
               <div>
                 <span class="poppins  text-xl text-gray-600 font-light">
