@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const MuseContent = () => {
@@ -77,23 +78,25 @@ const MuseContent = () => {
             visits, collection exploration, events, workshops, and the
             marketplace for art shopping.
           </p>
-          <div className="grid md:grid-cols-4 grid-cols-1 py-8">
+          <div className="grid md:grid-cols-4 grid-cols-1 py-8 mx-auto">
             <div className="grid-cols-1">
               <Image
                 src="/assets/portfolio/mobile-app/lofi1.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi2.png"
                 width={225}
                 height={400}
-                className="my-4"
+                className="my-4 mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi3.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
             </div>
 
@@ -102,6 +105,7 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi4.png"
                 width={228}
                 height={950}
+                className="mx-auto"
               />
             </div>
             <div className="grid-cols-1">
@@ -109,17 +113,19 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi5.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi6.png"
                 width={225}
                 height={400}
-                className="my-4"
+                className="my-4 mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi7.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
             </div>
             <div className="grid-cols-1">
@@ -127,17 +133,19 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi8.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi9.png"
                 width={225}
                 height={400}
-                className="my-4"
+                className="my-4 mx-auto"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi10.png"
                 width={225}
                 height={400}
+                className="mx-auto"
               />
             </div>
           </div>
@@ -158,52 +166,52 @@ const MuseContent = () => {
           </p>
           <div className="grid md:grid-cols-4 grid-cols-1 py-8">
             <Image
-              src="/assets/portfolio/mobile-app/hifi1.png"
+              src="/assets/portfolio/muse-gallery/Mobile4.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi2.png"
+              src="/assets/portfolio/muse-gallery/Mobile5.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hero.png"
+              src="/assets/portfolio/muse-gallery/Mobile1.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi3.png"
+              src="/assets/portfolio/muse-gallery/Mobile3.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi4.png"
+              src="/assets/portfolio/muse-gallery/Mobile6.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi5.png"
+              src="/assets/portfolio/muse-gallery/Mobile8.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi6.png"
+              src="/assets/portfolio/muse-gallery/Mobile9.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
             <Image
-              src="/assets/portfolio/mobile-app/hifi7.png"
+              src="/assets/portfolio/muse-gallery/Mobile7.png.png"
               width={225}
               height={400}
-              className="w-full"
+              className="mb-8 rounded-2xl mx-auto"
             />
           </div>
         </div>
@@ -283,6 +291,34 @@ const MuseContent = () => {
                 and preferences.
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 py-10">
+        <div className="research-box">
+          <h4 className="poppins font-normal">Checkout my other Projects</h4>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+            <Link href="/dialable">
+            
+            <Image
+              src="/assets/portfolio/work1.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain"
+            />
+            </Link>
+            <Link href="/ghar-ho-to-aisa">
+            
+            <Image
+              src="/assets/portfolio/work2.jpg"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain"
+            />
+            </Link>
+           
           </div>
         </div>
       </div>

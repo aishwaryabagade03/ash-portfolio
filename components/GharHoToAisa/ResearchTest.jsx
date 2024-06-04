@@ -1,5 +1,6 @@
 import { userPainPoints } from "@/utils/projects";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ResearchTest = () => {
@@ -242,7 +243,10 @@ const ResearchTest = () => {
             embodies our commitment to delivering exceptional living
             experiences, with customer-friendly planning, impeccable space
             management, and transparent on-time delivery at the forefront of
-            every detail. Go here to see the full hi-fi mockups.
+            every detail. 
+            <a className="underline cursor-pointer" href="https://www.figma.com/file/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?type=design&node-id=0-1&mode=design&t=VWN8DLCvIF0YbyJC-0">
+              Go here to see the full hi-fi screens.
+            </a>
           </p>
           <Image
             src="/assets/portfolio/real-estate/hifi.png"
@@ -333,6 +337,34 @@ const ResearchTest = () => {
                 and preferences.
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 py-10">
+        <div className="research-box">
+          <h4 className="poppins font-normal">Checkout my other Projects</h4>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+            <Link href="/dialable">
+            
+            <Image
+              src="/assets/portfolio/work1.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain"
+            />
+            </Link>
+            <Link href="/muse-gallery">
+            
+            <Image
+              src="/assets/portfolio/work3.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain"
+            />
+            </Link>
+           
           </div>
         </div>
       </div>

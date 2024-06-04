@@ -49,12 +49,12 @@ const Hero = () => {
       </div>
       <div className="highlighted-image pb-8 text-center">
         <Image
-          src="/assets/portfolio/mobile-app/hero.png"
-          width={1084}
-          height={700}
-          className="mx-auto"
+          src="/assets/portfolio/muse-gallery/Mobile1.png.png"
+          width={350}
+          height={400}
+          className="mx-auto rounded-2xl"
         />
-        <h6 className="font-bold poppins">
+        <h6 className="font-bold poppins mt-8">
           How might we make it easier for users to discover nearby museums and
           plan their visits seamlessly while also providing convenient access to
           ticket scanning and event scheduling, as well as opportunities to

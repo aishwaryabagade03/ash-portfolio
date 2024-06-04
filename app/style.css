@@ -117,6 +117,8 @@ footer{
 
   .menu li a {
     padding: 10px;
+    font-size: 2rem !important;
+
   }
 
   .close-menu,

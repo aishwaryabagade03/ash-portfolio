@@ -1,9 +1,7 @@
-"use client";
 import { projects } from "@/utils/projects";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
+import React from "react";
 
 const MyWork = () => {
   
@@ -27,16 +25,18 @@ const MyWork = () => {
                     </h6>
                     <p className="para-small poppins">{elem.type}</p>
                   </div>
-                  <div>
-                    <Link href={elem.projectUrl}>
-                      <Image
-                        src="/assets/portfolio/arrow.png"
-                        width={30}
-                        height={30}
-                        className="rotate-[270deg]"
-                      />
-                    </Link>
-                  </div>
+                  {ind !== 2 && (
+                    <div>
+                      <Link href={elem.projectUrl}>
+                        <Image
+                          src="/assets/portfolio/arrow.png"
+                          width={30}
+                          height={30}
+                          className="rotate-[270deg]"
+                        />
+                      </Link>
+                    </div>
+                  )}
                 </div>
               </div>
             </Link>
