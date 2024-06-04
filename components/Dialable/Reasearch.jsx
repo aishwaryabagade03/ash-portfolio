@@ -70,108 +70,8 @@ const Reasearch = () => {
             the remaining steps of the design process.
           </p>
         </div>
-        <div className="grid w-full grid-cols-1 md:grid-cols-12 gap-4 py-8">
-          <div className="md:col-span-3">
-            <div className="grid grid-cols-1 gap-4 text-center">
-              <div>
-                <Image
-                  src="/assets/portfolio/real-estate/profile.png"
-                  width={320}
-                  height={400}
-                    className="mx-auto"
-                />
-              </div>
-              <div className="age-box text-center rounded-lg px-8 py-5">
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Age:</span> 38
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Job Title:</span> Entrepreneur
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Status:</span> Married
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Location:</span> Mumbai, India
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="md:col-span-9">
-            <div className="md:col-span-2 mb-4">
-              <div className="inner-text-box px-6 py-4 rounded-lg">
-                <h6 className="poppins font-bold uppercase">Siba Panda</h6>
-                <p className="font-regular poppins mt-1">
-                  Siba wants to build a platform that provides accessibility and
-                  range of career opportunities for the disabled community. He
-                  wants to create a platform that is user-friendly and
-                  accessible to all, regardless of their abilities. He wants to
-                  provide resources and support for disabled individuals to help
-                  them succeed in their careers and achieve their goals.
-                </p>
-              </div>
-            </div>
-            <div className="grid md:grid-cols-3 gap-4">
-              <div>
-                <div className="inner-text-box px-10 pt-5 pb-4 rounded-lg bg-[#FBD3F9]">
-                  <h6 className="poppins font-bold uppercase">Goals</h6>
-                  <ul className="list-disc mt-1">
-                    <li className="font-regular poppins text-sm mb-4">
-                      Able to navigate physical spaces and access information
-                      easily and independently.
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Empower the disabled community by providing them with
-                      resources to find employment, businesses, and participate
-                      in community events.
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Promote inclusive and accessibility by ensuring that the
-                      website is user-friendly and accommodates them.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="inner-text-box  px-10 pt-5 pb-4 md:pb-28 rounded-lg bg-[#FBD3F9]">
-                  <h6 className="poppins font-bold uppercase">FRUSTRATIONS</h6>
-                  <ul className="list-disc mt-1">
-                    <li className="font-regular poppins text-sm mb-4">
-                      Lack of accessible resources and platforms available for
-                      people with disabilities, making it difficult for them to
-                      fully participate in society.
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      High unemployment rate among people with disabilities and
-                      the lack of job opportunities tailored to their needs.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="inner-text-box  px-10 pt-5 pb-4 md:pb-24 rounded-lg bg-[#FBD3F9]">
-                  <h6 className="poppins font-bold uppercase">PAIN POINTS</h6>
-                  <ul className="list-disc mt-1">
-                    <li className="font-regular poppins text-sm mb-4">
-                      Limited Accessibility
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Lack of Disability-Friendly Businesses
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Difficulty Finding Job Opportunities
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Limited Marketplace Products
-                    </li>
-                    <li className="font-regular poppins text-sm mb-4">
-                      Lack of Inspirational Content
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="grid w-full grid-cols-1 py-8">
+          <Image src='/assets/portfolio/Dialable/grid.png' width={1200} height={800} className="object-contain mx-auto"/>
         </div>
       </div>
 
@@ -230,24 +130,24 @@ const Reasearch = () => {
             of key pages, the lo-fi wireframes lay the foundation for a
             user-centric design that aligns with the brand's vision.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-8">
+          <div className="grid grid-cols-3 gap-4 py-8">
             <Image
               src="/assets/portfolio/Dialable/Dialable4.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/Dialable/Dialable5.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/Dialable/Dialable6.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
           </div>
         </div>
@@ -265,24 +165,24 @@ const Reasearch = () => {
               Go here to see the full hi-fi screens.
             </a>
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-8">
+          <div className="grid grid-cols-3 gap-4 py-8">
             <Image
               src="/assets/portfolio/Dialable/Dialable1.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/Dialable/Dialable2.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/Dialable/Dialable3.png"
               width={1200}
               height={120}
-              className="mx-auto w-full object-contain"
+              className="mx-auto w-full object-contain border border-[#0000006b]"
             />
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="pt-40 pb-16 max-w-screen-xl mx-auto">
+    <section className="pt-40 max-w-screen-xl mx-auto">
       <div className="hero-text grid md:grid-cols-2 grid-cols-1 gap-3 items-start">
         <div className="text-details">
           <h1 className="font-normal poppins title">Muse Gallery</h1>
@@ -47,9 +47,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="highlighted-image pb-8 text-center">
+      <div className="highlighted-image text-center">
         <Image
-          src="/assets/portfolio/muse-gallery/Mobile1.png.png"
+          src="/assets/portfolio/muse-gallery/Mockup1.png.png"
           width={350}
           height={400}
           className="mx-auto rounded-2xl"

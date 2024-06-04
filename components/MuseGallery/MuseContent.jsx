@@ -78,25 +78,25 @@ const MuseContent = () => {
             visits, collection exploration, events, workshops, and the
             marketplace for art shopping.
           </p>
-          <div className="grid md:grid-cols-4 grid-cols-1 py-8 mx-auto">
+          <div className="grid grid-cols-4 py-8 mx-auto gap-4">
             <div className="grid-cols-1">
               <Image
                 src="/assets/portfolio/mobile-app/lofi1.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi2.png"
                 width={225}
                 height={400}
-                className="my-4 mx-auto"
+                className="my-4 mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi3.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
             </div>
 
@@ -105,7 +105,7 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi4.png"
                 width={228}
                 height={950}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
             </div>
             <div className="grid-cols-1">
@@ -113,19 +113,19 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi5.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi6.png"
                 width={225}
                 height={400}
-                className="my-4 mx-auto"
+                className="my-4 mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi7.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
             </div>
             <div className="grid-cols-1">
@@ -133,19 +133,19 @@ const MuseContent = () => {
                 src="/assets/portfolio/mobile-app/lofi8.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi9.png"
                 width={225}
                 height={400}
-                className="my-4 mx-auto"
+                className="my-4 mx-auto border border-[#0000006b]"
               />
               <Image
                 src="/assets/portfolio/mobile-app/lofi10.png"
                 width={225}
                 height={400}
-                className="mx-auto"
+                className="mx-auto border border-[#0000006b]"
               />
             </div>
           </div>
@@ -164,54 +164,54 @@ const MuseContent = () => {
             calendar feature, discover collections, events, workshops, and shop
             for art items and paintings in the marketplace.
           </p>
-          <div className="grid md:grid-cols-4 grid-cols-1 py-8">
+          <div className="grid grid-cols-4 gap-4 py-8">
             <Image
               src="/assets/portfolio/muse-gallery/Mobile4.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile5.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile1.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile3.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile6.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile8.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile9.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
             <Image
               src="/assets/portfolio/muse-gallery/Mobile7.png.png"
               width={225}
               height={400}
-              className="mb-8 rounded-2xl mx-auto"
+              className="mb-8 rounded-2xl mx-auto border border-[#0000006b]"
             />
           </div>
         </div>

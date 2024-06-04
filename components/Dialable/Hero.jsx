@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="pt-40 pb-16 max-w-screen-xl mx-auto">
+    <section className="pt-40 max-w-screen-xl mx-auto">
       <div className="hero-text grid md:grid-cols-2 grid-cols-1 gap-3 items-start">
         <div className="text-details">
           <h1 className="font-normal poppins title">Dialable</h1>
@@ -49,16 +49,17 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="highlighted-image pb-8 text-center">
+      <div className="highlighted-image text-center">
         <Image
           src="/assets/portfolio/Dialable/Dialable7.png"
           width={1084}
-          height={700}
+          height={500}
           className="mx-auto object-contain"
         />
         <h6 className="font-bold poppins">
-        How might we create a digital platform that effectively connects disabled individuals with businesses, addressing accessibility barriers and fostering inclusivity in the commercial landscape?
-
+          How might we create a digital platform that effectively connects
+          disabled individuals with businesses, addressing accessibility
+          barriers and fostering inclusivity in the commercial landscape?
         </h6>
       </div>
     </section>

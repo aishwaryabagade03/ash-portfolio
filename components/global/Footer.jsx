@@ -51,7 +51,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex gap-3 text-right md:justify-end mt-4 md:mt-0 justify-center">
-            <Link href="/work" className="text-white text-lg">
+            <a href="/https://www.instagram.com/aishwarya.003/#/" className="text-white text-lg cursor-pointer">
               <svg
               className="w-8 h-8 stroke-white	"
                 width="64px"
@@ -86,8 +86,8 @@ const Footer = () => {
                   ></path>{" "}
                 </g>
               </svg>
-            </Link>
-            <Link href="/" className="text-white text-lg">
+            </a>
+            <a  href="https://www.linkedin.com/in/aishwarya-bagade-0b0a92291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-white text-lg cursor-pointer">
               <svg
               className="w-8 h-8 stroke-white	"
                 width="64px"
@@ -124,8 +124,8 @@ const Footer = () => {
                   ></path>{" "}
                 </g>
               </svg>
-            </Link>
-            <Link href="/about" className="text-white text-lg">
+            </a>
+            <a href="https://www.behance.net/aishwaryabagade" className="text-white text-lg cursor-pointer">
               <svg
               className="w-8 h-8 stroke-white	"
                 width="64px"
@@ -160,7 +160,7 @@ const Footer = () => {
                   ></path>{" "}
                 </g>
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -45,7 +45,7 @@ const Contact = () => {
                 <textarea class="w-full h-32 border-b-2 border-black mt-2 p-3  focus:outline-none focus:shadow-outline"></textarea>
               </div>
               <div class="mt-8">
-              <button className="bg-black text-white px-12 py-3 rounded-lg text-xl duration-300 hover:bg-sky-500 poppins" type="submit">Send Message</button>
+              <button className="bg-black text-white px-12 py-3 rounded-lg text-xl duration-300  hover:bg-[#1d00f0] poppins" type="submit">Send Message</button>
 
               </div>
             </div>

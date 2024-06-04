@@ -72,10 +72,10 @@ const ResearchTest = () => {
               to its users.
             </p>
             <Image
-              src="/assets/portfolio/real-estate/meter-box.png"
+              src="/assets/portfolio/estate/Realestate7.png"
               width={1200}
               height={120}
-              className="mx-auto"
+              className="mx-auto drop-shadow"
             />
           </div>
         </div>
@@ -92,101 +92,10 @@ const ResearchTest = () => {
             exceeds expectations and elevates their brand experience.
           </p>
         </div>
-        <div className="grid w-full grid-cols-12 gap-4 py-8">
-          <div className="col-span-9">
-            <div className="col-span-2 mb-4">
-              <div className="inner-text-box px-6 py-4 rounded-lg bg-[#FBD3F9]">
-                <h6 className="poppins font-bold uppercase">Background</h6>
-                <p className="font-regular poppins mt-1">
-                  Dhruvita Bosmiya is a CEO at a leading real estate company
-                  “Ghar Ho Toh Aisa” in Mumbai. She is passionate about
-                  innovation and understands the importance of delivering
-                  exceptional customer experiences to build brand loyalty and
-                  drive sales.
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <div className="inner-text-box px-10 pt-5 pb-14 rounded-lg bg-[#FBD3F9]">
-                  <h6 className="poppins font-bold uppercase">Goals</h6>
-                  <ul className="list-disc mt-1">
-                    <li className="font-regular poppins">
-                      Re-design the company's website, to reflect the brand's
-                      commitment to delivering dream homes and exceptional
-                      living experiences.
-                    </li>
-                    <li className="font-regular poppins">
-                      Aims to create a user-friendly website that provides
-                      customers with easy access to information about available
-                      properties, amenities, and pricing.
-                    </li>
-                    <li className="font-regular poppins">
-                      Increasing functionality by enabling the customers with
-                      EMI Calculator, easy navigation, and map feature.
-                    </li>
-                    <li className="font-regular poppins">
-                      To build trust with potential customers by providing
-                      transparent information about the company's track record,
-                      customer testimonials.{" "}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="inner-text-box  px-10 pt-5 pb-20 rounded-lg bg-[#FBD3F9]">
-                  <h6 className="poppins font-bold uppercase">Challenges</h6>
-                  <ul className="list-disc mt-1">
-                    <li className="font-regular poppins">
-                      The current website is outdated and does not effectively
-                      showcase the company's brand or offerings.
-                    </li>
-                    <li className="font-regular poppins">
-                      The navigation structure of the current website is
-                      confusing, making it difficult for users to find the
-                      information they need.
-                    </li>
-                    <li className="font-regular poppins">
-                      The current website lacks interactive features and
-                      engagement opportunities, resulting in low user engagement
-                      and conversion rates.
-                    </li>
-                    <li className="font-regular poppins">
-                      The current website is not fully optimized for mobile
-                      devices, limiting accessibility and usability for mobile
-                      users.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-span-3">
-            <div className="grid grid-cols-1 gap-4">
-              <div>
-                <Image
-                  src="/assets/portfolio/real-estate/profile.png"
-                  width={320}
-                  height={400}
-                  //   className="w-full h-full"
-                />
-              </div>
-              <div className="age-box text-center rounded-lg bg-[#FBD3F9] px-8 py-5">
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Age:</span> 27
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Job Title:</span> CEO
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Status:</span> Single
-                </p>
-                <p className="mb-2 poppins">
-                  <span className="font-bold">Location:</span> Mumbai, India
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="grid w-full grid-cols-1">
+        <div className="grid w-full grid-cols-1 py-8">
+          <Image src='/assets/portfolio/estate/Persona.png' width={1200} height={800} className="object-contain mx-auto"/>
+        </div>
         </div>
       </div>
 
@@ -225,12 +134,26 @@ const ResearchTest = () => {
             of key pages, the lo-fi wireframes lay the foundation for a
             user-centric design that aligns with the brand's vision.
           </p>
-          <Image
-            src="/assets/portfolio/real-estate/wireframes.png"
-            width={1200}
-            height={120}
-            className="mx-auto w-full"
-          />
+          <div className="grid grid-cols-3 gap-4 py-8">
+            <Image
+              src="/assets/portfolio/estate/Realestate4.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+            <Image
+              src="/assets/portfolio/estate/Realestate5.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+            <Image
+              src="/assets/portfolio/estate/Realestate6.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+          </div>
         </div>
       </div>
 
@@ -248,12 +171,26 @@ const ResearchTest = () => {
               Go here to see the full hi-fi screens.
             </a>
           </p>
-          <Image
-            src="/assets/portfolio/real-estate/hifi.png"
-            width={1200}
-            height={120}
-            className="mx-auto w-full object-contain"
-          />
+          <div className="grid grid-cols-3 gap-4 py-8">
+            <Image
+              src="/assets/portfolio/estate/Realestate1.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+            <Image
+              src="/assets/portfolio/estate/Realestate2.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+            <Image
+              src="/assets/portfolio/estate/Realestate3.png.png"
+              width={1200}
+              height={120}
+              className="mx-auto w-full object-contain border border-[#0000006b]"
+            />
+          </div>
         </div>
       </div>
 

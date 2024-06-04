@@ -22,10 +22,10 @@ const GalleryGrid = () => {
                 </div>
                 <div>
                     <div className="grid-cols-1">
-                        <div>
+                        <div className='mt-7 md:mt-0'>
                             <Image className='object-cover' src='/assets/ash/gallery3.jpg' width={400} height={600}/>
                         </div>
-                        <div className='mt-7'>
+                        <div className='my-7'>
                             <Image className='object-cover h-[470px]' src='/assets/ash/gallery7.jpg' width={400} height={470}/>
                         </div>
                        

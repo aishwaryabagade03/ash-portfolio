@@ -30,7 +30,7 @@ const AboutHero = () => {
               <Link
                 href="/resume.pdf"
                 download={true}
-                className="bg-black text-white px-12 py-3 rounded-lg text-xl duration-300 mt-8 hover:bg-sky-500 poppins"
+                className="bg-black text-white px-12 py-3 rounded-lg text-xl duration-300 mt-8 hover:bg-[#1d00f0] poppins"
               >
                 Resume
               </Link>
