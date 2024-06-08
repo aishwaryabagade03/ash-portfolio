@@ -75,7 +75,7 @@ const ResearchTest = () => {
               src="/assets/portfolio/estate/Realestate7.png"
               width={1200}
               height={120}
-              className="mx-auto drop-shadow"
+              className="mx-auto mt-8"
             />
           </div>
         </div>

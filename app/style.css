@@ -67,7 +67,7 @@ h6 {
 
 .project-div:hover{
   cursor: none !important;
-  cursor: url('/assets/view-cursor2.png') , auto !important;
+  cursor: url('/assets/Cursor.png') , auto !important;
 }
 
 footer{
