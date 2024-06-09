@@ -6,7 +6,7 @@ export const projects = [
     img: "/assets/portfolio/img1.png",
     url: "dialable",
     projectUrl:
-      "https://www.figma.com/design/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?node-id=0-1&t=0xAkDSM1FYyn5P7U-0",
+      "https://dialable-revamp.vercel.app",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects = [
     img: "/assets/portfolio/img2.jpg",
     url: "ghar-ho-to-aisa",
     projectUrl:
-      "https://www.figma.com/design/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?node-id=0-1&t=0xAkDSM1FYyn5P7U-0",
+      "https://ghar-ho-to-aisa.vercel.app",
   },
   {
     id: 3,

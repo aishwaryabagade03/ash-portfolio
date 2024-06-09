@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 justify-between w-full">
           <div>
             <div>
-              <span className="text-white text-xl md:text-5xl poppins">
+              <span className="text-[#AAAAAA] text-xl md:text-5xl poppins">
                 Have a nice project?
               </span>
               <br />
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:text-right">
-            <div className="flex md:flex-col justify-center gap-3">
+            <div className="flex md:flex-col md:justify-center gap-3">
               <Link href="/work" className="text-white text-2xl">
                 WORK
               </Link>
@@ -44,13 +44,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 md:justify-between w-full mt-10 md:mt-0 justify-center">
+        <div className="grid md:grid-cols-2 grid-cols-1 md:justify-between w-full mt-10 md:mt-0 justify-start">
           <div className="poppins">
-            <p className="text-white poppins text-center md:text-left">
+            <p className="text-white poppins text-left">
               Copyright © 2024 Aishwarya Bagade.
             </p>
           </div>
-          <div className="flex gap-3 text-right md:justify-end mt-4 md:mt-0 justify-center">
+          <div className="flex gap-3 text-right md:justify-end mt-4 md:mt-0 justify-start">
             <a href="/https://www.instagram.com/aishwarya.003/#/" className="text-white text-lg cursor-pointer">
               <svg
               className="w-8 h-8 stroke-white	"

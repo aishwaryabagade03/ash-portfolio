@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section className="pt-28 md:pt-40 md:pb-16">
       <div class="grid max-w-screen-xl py-8 mx-auto md:gap-8 xl:gap-0 md:py-16 md:grid-cols-12">
-        <div class="mr-auto place-self-center md:col-span-7 order-1 md:order-none text-center md:text-left mb-10 md:mb-0">
-          <h1 class="text-4xl mt-8 md:mt-0 md:text-[97px] mb-4 leading-none dark:text-dark">
+        <div class="mr-auto place-self-center md:col-span-7 order-1 md:order-none text-left mb-10 md:mb-0">
+          <h1 class="text-5xl mt-8 md:mt-0 md:text-[97px] mb-4 leading-none dark:text-dark">
             Hey there ,<br /> I'm <span className="text-[#1D00F0]">Aishwarya</span>
           </h1>
           <p class="text-[24px] poppins lg:mb-8 dark:text-dark">

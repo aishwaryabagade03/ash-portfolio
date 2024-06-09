@@ -166,7 +166,7 @@ const ResearchTest = () => {
             embodies our commitment to delivering exceptional living
             experiences, with customer-friendly planning, impeccable space
             management, and transparent on-time delivery at the forefront of
-            every detail. 
+            every detail. <br />
             <a className="underline cursor-pointer" href="https://www.figma.com/file/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?type=design&node-id=0-1&mode=design&t=VWN8DLCvIF0YbyJC-0">
               Go here to see the full hi-fi screens.
             </a>

@@ -160,7 +160,7 @@ const Reasearch = () => {
             Based on the feedback from initial user research, I created
             Hi-fidelity mockups. Each design element reflects careful
             consideration and iterative refinement, ensuring a seamless user
-            experience tailored to the diverse needs of our users.
+            experience tailored to the diverse needs of our users. <br />
             <a className="underline cursor-pointer" href="https://www.figma.com/file/h1DH0m71ov9tItEFvIy2F8/Dialable-Project?type=design&node-id=0%3A1&mode=design&t=TDUtPjMcqgYCNYF1-1">
               Go here to see the full hi-fi screens.
             </a>
