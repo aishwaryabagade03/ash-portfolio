@@ -37,7 +37,7 @@ const AboutHero = () => {
             </div>
           </div>
           <div className="w-4/5 text-right mx-auto md:ml-auto">
-            <div className="grid grid-cols-2 gap-4 relative mb-20">
+            <div className="grid grid-cols-2 gap-4 relative mt-16 lg:mt-0 mb-20">
               <div className="grid-item-1 relative">
                 <Image
                   src="/assets/ash/grid1.jpg"
