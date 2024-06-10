@@ -93,9 +93,14 @@ const ResearchTest = () => {
           </p>
         </div>
         <div className="grid w-full grid-cols-1">
-        <div className="grid w-full grid-cols-1 py-8">
-          <Image src='/assets/portfolio/estate/Persona.png' width={1200} height={800} className="object-contain mx-auto"/>
-        </div>
+          <div className="grid w-full grid-cols-1 py-8">
+            <Image
+              src="/assets/portfolio/estate/Persona.png"
+              width={1200}
+              height={800}
+              className="object-contain mx-auto"
+            />
+          </div>
         </div>
       </div>
 
@@ -167,7 +172,10 @@ const ResearchTest = () => {
             experiences, with customer-friendly planning, impeccable space
             management, and transparent on-time delivery at the forefront of
             every detail. <br />
-            <a className="underline cursor-pointer" href="https://www.figma.com/file/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?type=design&node-id=0-1&mode=design&t=VWN8DLCvIF0YbyJC-0">
+            <a
+              className="underline cursor-pointer"
+              href="https://www.figma.com/file/SkX7fox5h0lgjP5kUw0llX/Real-Estate-Project?type=design&node-id=0-1&mode=design&t=VWN8DLCvIF0YbyJC-0"
+            >
               Go here to see the full hi-fi screens.
             </a>
           </p>
@@ -284,24 +292,31 @@ const ResearchTest = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
             <Link href="/dialable">
-            
-            <Image
-              src="/assets/portfolio/work1.png"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work1.png"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+ <div>
+                <h3>Dialable</h3>
+                <p className=" poppins">Client Project</p>
+              </div>
             </Link>
             <Link href="/muse-gallery">
-            
-            <Image
-              src="/assets/portfolio/work3.png"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work3.png"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+              <div>
+                    <h3>
+                        Muse Gallery
+                    </h3>
+                    <p className="poppins">Personal Project</p>
+                  </div>
             </Link>
-           
           </div>
         </div>
       </div>

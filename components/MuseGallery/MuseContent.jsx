@@ -221,7 +221,13 @@ const MuseContent = () => {
         <div className="research-box">
           <h4 className="poppins font-normal">Style Guide (UI)</h4>
           <p className="font-light poppins mt-4">
-          After finalizing the wireframes for the website, I designed a comprehensive style guide to ensure consistency in the UI design process. I curated a set of design elements including icons, buttons, typography, and a vibrant color palette. Each element was carefully selected to reflect the brand's values of innovation, quality, and transparency, while also aiming to evoke a sense of approachability and comfort for users navigating the new website. 
+            After finalizing the wireframes for the website, I designed a
+            comprehensive style guide to ensure consistency in the UI design
+            process. I curated a set of design elements including icons,
+            buttons, typography, and a vibrant color palette. Each element was
+            carefully selected to reflect the brand's values of innovation,
+            quality, and transparency, while also aiming to evoke a sense of
+            approachability and comfort for users navigating the new website.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Image
@@ -301,24 +307,29 @@ const MuseContent = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
             <Link href="/dialable">
-            
-            <Image
-              src="/assets/portfolio/work1.png"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work1.png"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+              <div>
+                <h3>Dialable</h3>
+                <p className=" poppins">Client Project</p>
+              </div>
             </Link>
             <Link href="/ghar-ho-to-aisa">
-            
-            <Image
-              src="/assets/portfolio/work2.jpg"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work2.jpg"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+              <div>
+                <h3>Ghar ho toh aisa</h3>
+                <p className=" poppins">Client Project</p>
+              </div>
             </Link>
-           
           </div>
         </div>
       </div>

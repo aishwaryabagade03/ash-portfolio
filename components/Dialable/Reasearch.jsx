@@ -71,7 +71,12 @@ const Reasearch = () => {
           </p>
         </div>
         <div className="grid w-full grid-cols-1 py-8">
-          <Image src='/assets/portfolio/Dialable/grid.png' width={1200} height={800} className="object-contain mx-auto"/>
+          <Image
+            src="/assets/portfolio/Dialable/grid.png"
+            width={1200}
+            height={800}
+            className="object-contain mx-auto"
+          />
         </div>
       </div>
 
@@ -161,7 +166,10 @@ const Reasearch = () => {
             Hi-fidelity mockups. Each design element reflects careful
             consideration and iterative refinement, ensuring a seamless user
             experience tailored to the diverse needs of our users. <br />
-            <a className="underline cursor-pointer" href="https://www.figma.com/file/h1DH0m71ov9tItEFvIy2F8/Dialable-Project?type=design&node-id=0%3A1&mode=design&t=TDUtPjMcqgYCNYF1-1">
+            <a
+              className="underline cursor-pointer"
+              href="https://www.figma.com/file/h1DH0m71ov9tItEFvIy2F8/Dialable-Project?type=design&node-id=0%3A1&mode=design&t=TDUtPjMcqgYCNYF1-1"
+            >
               Go here to see the full hi-fi screens.
             </a>
           </p>
@@ -267,24 +275,31 @@ const Reasearch = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
             <Link href="/ghar-ho-to-aisa">
-            
-            <Image
-              src="/assets/portfolio/work2.jpg"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work2.jpg"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+               <div>
+                <h3>Ghar ho toh aisa</h3>
+                <p className=" poppins">Client Project</p>
+              </div>
             </Link>
             <Link href="/muse-gallery">
-            
-            <Image
-              src="/assets/portfolio/work3.png"
-              width={1200}
-              height={120}
-              className="mx-auto w-full object-contain"
-            />
+              <Image
+                src="/assets/portfolio/work3.png"
+                width={1200}
+                height={120}
+                className="mx-auto w-full object-contain"
+              />
+               <div>
+                    <h3>
+                        Muse Gallery
+                    </h3>
+                    <p className="poppins">Personal Project</p>
+                  </div>
             </Link>
-           
           </div>
         </div>
       </div>
