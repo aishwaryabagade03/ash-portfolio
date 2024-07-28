@@ -37,7 +37,7 @@ const Hero = () => {
             collections, stay updated on events and workshops, and even shop for
             art pieces and paintings in the integrated marketplace.
           </h6>
-          <div className="md:flex justify-end mt-7">
+          <div className="md:flex justify-end mt-7 hidden">
             <Image
               src="/assets/portfolio/arrow.png"
               width={65}

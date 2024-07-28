@@ -40,7 +40,7 @@ const Hero = () => {
             space management, and transparent on-time delivery, a trusted
             reputation in the industry.
           </h6>
-          <div className="md:flex justify-end mt-7">
+          <div className="md:flex justify-end mt-7 hidden">
           <svg
                           className="rotate-[315deg]"
                           width="200px"

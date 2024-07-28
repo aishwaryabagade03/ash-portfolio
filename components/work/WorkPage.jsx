@@ -5,7 +5,7 @@ import React from "react";
 
 const WorkPage = () => {
   return (
-    <section className="py-44">
+    <section className="py-32">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 gap-12 my-8">
           {work.map((elem, ind) => (
