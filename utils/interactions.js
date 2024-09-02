@@ -46,6 +46,9 @@ export const interactions = [
       {
         img: "/assets/gifs/MicroInteractions-10.gif",
       },
+      {
+        img: "/assets/gifs/MicroInteractions-11.gif",
+      },
     ],
   },
   {

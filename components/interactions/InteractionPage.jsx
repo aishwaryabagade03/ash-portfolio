@@ -9,11 +9,11 @@ const InteractionPage = () => {
         <h1 className="text-4xl md:text-8xl mb-2 syne">
           UI Micro Interactions
         </h1>
-        <h4>In Figma</h4>
+        <p className="md:text-4xl text-lg">In Figma</p>
       </div>
       <div className="grid grid-cols-1 border-grey border-b-2 py-10">
         <div className="research-box">
-          <h4 className="poppins font-normal">Introduction</h4>
+          <h5 className="poppins font-normal">Introduction</h5>
           <p className="font-light poppins mt-4">
             Micro interactions are the subtle, often minute animations and
             responses that provide feedback, enhance user engagement, and
@@ -28,7 +28,7 @@ const InteractionPage = () => {
       </div>
       <div className="grid grid-cols-1 border-grey border-b-2 py-10">
         <div className="research-box">
-          <h4 className="poppins font-normal">Purpose of Micro Interactions</h4>
+          <h5 className="poppins font-normal">Purpose of Micro Interactions</h5>
           <p className="font-light poppins mt-4">
             Micro interactions serve several key purposes within a user
             interface:
@@ -41,9 +41,7 @@ const InteractionPage = () => {
             </li>
             <li className="font-light poppins">
               Guidance: They guide users through processes and indicate what to
-              do next. Visual Delight: By adding an element of fun or
-              satisfaction, micro interactions can turn routine tasks into more
-              engaging experiences.
+              do next.
             </li>
             <li className="font-light poppins">
               Visual Delight: By adding an element of fun or satisfaction, micro
@@ -59,7 +57,7 @@ const InteractionPage = () => {
       </div>
       <div className="grid grid-cols-1 border-grey border-b-2 py-10">
         <div className="research-box">
-          <h4 className="poppins font-normal">Project Overview</h4>
+          <h5 className="poppins font-normal">Project Overview</h5>
           <p className="font-light poppins mt-4">
             This section features a collection of over 10 micro interactions
             I’ve crafted, each designed to enhance the user experience through
@@ -73,7 +71,7 @@ const InteractionPage = () => {
       <div className="grid grid-cols-1 pt-10">
         {interactions.map((elem, ind) => (
           <div className="research-box my-4" key={elem.id + ind}>
-            <h4 className="poppins font-normal mb-2">{elem.title}</h4>
+            <h5 className="poppins font-normal mb-2">{elem.title}</h5>
             <ul className="list-disc pl-4">
               {elem.points.map((point, ind) => (
                 <li className="font-light poppins" key={ind}>
@@ -109,7 +107,7 @@ const InteractionPage = () => {
         ))}
       </div>
       <section className="research-box">
-        <h4 className="poppins font-normal">Conclusion</h4>
+        <h5 className="poppins font-normal">Conclusion</h5>
         <p className="font-light poppins mt-4">
           Micro interactions, while often small, significantly impact how users
           interact with a product. By thoughtfully designing these interactions,
