@@ -82,7 +82,7 @@ export const interactions = [
           "Overview: The heart animation is a common interaction used in social media and e-commerce apps to indicate 'liking' or 'favoriting' an item. This animation adds an emotional touch to the user experience.",
       },
       {
-        title: "Tools Used: Figma, Lottie.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
