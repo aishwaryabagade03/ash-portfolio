@@ -60,7 +60,7 @@ export const interactions = [
           "Overview: The progress bar interaction demonstrates the process flow and keeps users informed of the status of an operation. This interaction is crucial in maintaining user engagement during longer tasks.",
       },
       {
-        title: "Tools Used: Adobe XD, After Effects.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -105,7 +105,7 @@ export const interactions = [
           "Overview: Toggle switches allow users to turn settings on or off. This micro interaction showcases a smooth and visually appealing transition between states.",
       },
       {
-        title: "Tools Used: Sketch, Framer.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -127,7 +127,7 @@ export const interactions = [
           "Overview: The hamburger menu is a staple in modern web and mobile design. This animation transforms the standard three-line icon into an engaging menu reveal, enhancing the navigation experience.",
       },
       {
-        title: "Tools Used: Figma, Principle.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -149,7 +149,7 @@ export const interactions = [
           "Overview: Spinners are often used to indicate loading or processing states. This micro interaction ensures that the waiting time feels shorter and more pleasant for the user.",
       },
       {
-        title: "Tools Used: After Effects, Lottie.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -171,7 +171,7 @@ export const interactions = [
           "Overview: The checkbox is a simple yet frequently used UI element. This animation makes the act of checking a box more visually satisfying, contributing to a positive user experience.",
       },
       {
-        title: "Tools Used: Adobe XD, Figma.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -193,7 +193,7 @@ export const interactions = [
           "Overview: Similar to checkboxes, radio buttons are essential in forms and settings. This animation highlights the selection process, making it more engaging for the user.",
       },
       {
-        title: "Tools Used: Sketch, Framer.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
@@ -215,7 +215,7 @@ export const interactions = [
           "Overview: This micro interaction highlights the currently active menu item, helping users navigate and understand their position within the interface.",
       },
       {
-        title: "Tools Used: Figma, Principle.",
+        title: "Tools Used: Figma.",
       },
       {
         title:
